@@ -1,0 +1,26 @@
+.call-to-action {
+    background-color: #F3F4F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .cta__content{
+        max-width: 36.5rem;
+        margin-left: 6.25rem;
+
+        .cta__button {
+            padding: 0.625rem 2.625rem;
+            color: #fafefe;
+        }
+
+        .cta__text {
+            margin-bottom: 2rem;
+
+            .cta__title {
+                font-weight: 700;
+                font-size: 2.5rem;
+                line-height: 140%;
+            }
+        }
+    }
+}

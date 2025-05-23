@@ -1,0 +1,36 @@
+.benefits-section {
+
+    .benefits__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+
+        .benefit__card {
+            border: 1px solid #e0e0e0;;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.375rem 1rem;
+
+            .benefit__text {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 0.875rem;
+                line-height: 160%;
+            }
+    
+            .benefit__title {
+                display: flex;
+                gap: 1rem;
+    
+                .benefit-title__title-text {
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 150%;
+                    color: #156963;
+                }
+            }
+        }
+    }
+}

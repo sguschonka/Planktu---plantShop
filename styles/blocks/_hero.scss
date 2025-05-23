@@ -1,0 +1,61 @@
+.hero-section {
+    margin-bottom: 8.75rem;
+
+    .hero__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero__container {
+            display: flex;
+            flex-direction: column;
+            gap: 6.875rem;
+        }
+
+        .hero__text{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .hero__subtitle {
+                font-family: var(--font-family);
+                font-size: 1.125rem;
+                line-height: 178%;
+                opacity: 0.8;
+            }
+        }
+
+        .hero__buttons {
+            display: flex;
+
+            .hero__button {
+                padding: 3.125rem 2.5rem;
+                font-family: var(--font-family);
+                font-size: 2rem;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+    
+                .hero-button__subtitle {
+                    font-family: var(--font-family);
+                    font-size: 1.5rem;
+                    color: #333;
+                    display: flex;
+
+                    .subtitle--next {
+                        color: #f2f2f2;
+                    }
+    
+                    .subtitle--previous {
+                        color: #333;
+                    }
+                }
+
+            }
+
+            .button--transparent {
+                color: #156963;
+            }
+        }
+    }
+}

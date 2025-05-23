@@ -1,0 +1,142 @@
+@media (max-width: 75rem) {
+    .hero-section {
+
+        .hero__inner {
+            gap: 0.5rem;
+
+            .hero__img {
+                max-width: 50%;
+                height: auto;
+            }
+
+            .hero__container {
+                align-items: center;
+                gap: 1rem;
+
+                .hero__text {
+                    gap: 1rem;
+
+                    .hero__subtitle {
+                        font-size: 0.875rem;
+                    }
+                }
+
+                .hero__buttons {
+                    flex-direction: column;
+
+                    .hero__button {
+                        font-size: 1rem;
+                        padding: 2rem 1rem;
+    
+                        .hero-button__subtitle {
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .benefits-section {
+
+        .benefits__grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .features-section {
+        justify-content: center;
+
+        .image--vertical {
+            display: none;
+        }
+    }
+
+    .footer__inner {
+
+        .footer__navs {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 34.375rem) {
+    .header__container {
+        flex-direction: column;
+
+        .header__controls {
+            gap: 1rem;
+        }
+    }
+
+    .benefits-section {
+
+        .benefits__grid {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+
+    .features-section {
+
+        .features__content {
+
+            .features__text {
+
+                .features__title {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .call-to-action {
+
+        .cta__content {
+
+                .cta__text {
+
+                    .cta__title {
+                        font-size: 1.5rem;
+                    }
+                }
+        }
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 25.625rem) {
+    .header {
+        padding: 0.5rem 1rem;
+
+        .header__buttons {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 53rem) {
+    .call-to-action {
+
+        .cta__content {
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .cta__image {
+            display: none;
+        }
+    }
+}

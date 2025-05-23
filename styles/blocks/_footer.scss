@@ -1,0 +1,86 @@
+.footer__inner {
+    .footer__link {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 114%;
+        color: #000;
+    }
+
+    .content__box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.875rem;
+        align-items: flex-start;
+    }
+
+    .footer__line {
+        padding-bottom: 1px;
+        background-color: #156963;
+        opacity: 30%;
+    }
+
+    .footer__content {
+        margin-top: 3.75rem;
+        margin-bottom: 4.375rem;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+
+        .footer__company-name {
+            font-family: var(--font3);
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 100%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #156963;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer__subtitle {
+            font-family: var(--font3);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            color: #000;
+        }
+
+        .subtitle--grey {
+            color: #333;
+            margin-bottom: 0.625rem;
+        }
+    }
+
+    .footer__navs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+
+        .subtitle--black {
+            margin-bottom: 1.25rem;
+        }
+
+        .footer__subscribe-form {
+            .footer__email-input {
+                border: 1px solid #f2f2f2;
+                border-radius: 0.125rem;
+                font-size: 0.875rem;
+                line-height: 133%;
+                color: #000;
+                opacity: 0.5;
+                width: 100%;
+                padding-left: 13px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            .submit-button {
+                font-size: 0.875rem;
+                border-radius: 0.125rem;
+                padding: 0.25rem 0.75rem;
+                backdrop-filter: blur(10px);
+            }
+        }
+    }
+}
